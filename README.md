@@ -12,12 +12,12 @@ any message sent to it to display in a web interface.  By running mailcatcher we
 To run locally you use the following command
 
 ```shell
-podman run -d --name mailcatcher -p 18080:8080 -p 1025:1025 quay.io/sshaaf/mailcatcher
+podman run -d --name mailcatcher -p 8080:8080 -p 1025:1025 quay.io/sshaaf/mailcatcher
 ```
 
 This command will expose locally the following ports:
 
-* `http://127.0.0.1:18080` for see the emails
+* `http://127.0.0.1:8080` for see the emails
 * `smtp://127.0.0.1:1025` for server SMTP endpoint
 
 
