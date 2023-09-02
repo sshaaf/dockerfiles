@@ -1,4 +1,4 @@
-FROM ruby:2.5
+FROM ruby:3.0
 MAINTAINER sshaaf@redhat.com
 
 RUN gem install mailcatcher
